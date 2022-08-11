@@ -25,7 +25,7 @@ rounds=int(input("How many rounds would you like to play? Enter 1, 2 or 3"))
 
 def run():
     print ("Welcome to Pokemon Top Trumps!")
-    pokemon_capital = (player_choice_pokemon['name'][0].upper()) + (player_choice_pokemon[1:])
+    pokemon_capital = (player_choice_pokemon['name'][0].upper()) + (player_choice_pokemon['name'][1:])
     print('You chose{}'.format(pokemon_capital))
     stat_choice = input('Which stat do you want to use? (id, height, weight) ')
 
