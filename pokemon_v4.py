@@ -15,12 +15,14 @@ return {
     'weight': pokemon['weight'],
     }
 
-pokemon1 = (pokemon_card())
-pokemon2 = (pokemon_card())
-pokemon3 = (pokemon_card())
+def user_chooses():
+    pokemon1 = (pokemon_card())
+    pokemon2 = (pokemon_card())
+    pokemon3 = (pokemon_card())
 
-player_choice_pokemon = input(f"Would you like to choose {pokemon1['name']}, {pokemon2['name']} or {pokemon3['name']}?")
+    player_choice_pokemon = input(f"Would you like to choose {pokemon1['name']}, {pokemon2['name']} or {pokemon3['name']}?")
 
+def rounds():
 rounds=int(input("How many rounds would you like to play? Enter 1, 2 or 3"))
 
 def run():
