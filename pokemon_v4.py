@@ -23,7 +23,7 @@ def user_chooses():
     player_choice_pokemon = input(f"Would you like to choose {pokemon1['name']}, {pokemon2['name']} or {pokemon3['name']}?")
 
 def rounds():
-rounds=int(input("How many rounds would you like to play? Enter 1, 2 or 3"))
+    rounds=int(input("How many rounds would you like to play? Enter 1, 2 or 3"))
 
 def run():
     print ("Welcome to Pokemon Top Trumps!")
